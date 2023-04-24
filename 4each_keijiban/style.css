@@ -1,0 +1,119 @@
+/* --------ヘッダー--------*/
+header {
+    width: 100%;
+}
+
+.logo img {
+    width: 250px;
+}
+
+header ul {
+    list-style-type:none;
+    background-color: black;
+    height:60px;
+    line-height:60px;
+}
+
+header ul li {
+    float: left;
+    padding:0px 40px;
+    color: white;
+}
+
+
+h1{
+    border-left: 5px black solid;
+    border-bottom: 5px gray solid;
+    padding-left:5px;
+    width: 1000px;
+    
+}
+
+/* --------メインコンテンツ--------*/
+
+main{
+    clear: left;
+    width:100%;
+}
+/* --------左--------*/
+
+
+.left {
+    float: left;
+    width: 70%;
+}
+
+/* --------入力フォーム--------*/
+
+h2{
+    margin:0 auto;
+    border-left:4px red solid;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+form{
+    background-color: #fbfbfb;
+    border:3px #ebebeb solid;
+    width:1000px;
+    margin-bottom: 20px;
+}
+
+form div{
+    padding:15px;
+}
+
+.submit{
+    border:1px solid lightgray;
+    padding:4px 10px;
+    color:white;
+    background-color: gray;
+    border-radius: 5px;
+    border-bottom:solid 2px black;
+}
+
+/* --------記事--------*/
+
+.kiji{
+    background-color: #fbfbfb;
+    border:3px #ebebeb solid;
+    width:970px;
+    margin-bottom: 10px;
+    padding:15px;
+}
+
+.kijilast{
+    margin-bottom: 40px;
+}
+
+h3{
+    border-bottom: 3px #ebebeb solid;    
+}
+
+.handlename{
+    font-size:15px;
+}
+
+/* --------右--------*/
+
+
+.right {
+    float: left;
+    width: 25%;
+    padding-left:40px;
+    padding-top:30px;
+}
+
+
+
+/* --------フッター--------*/
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+}
